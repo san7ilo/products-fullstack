@@ -1,0 +1,34 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* 🎨 Mejorar el fondo y los colores de texto */
+body {
+  background-color: #f9fafb; /* Fondo claro */
+  color: #1f2937; /* Texto oscuro */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #181515; /* Fondo oscuro */
+    color: #f9fafb; /* Texto claro */
+  }
+}
+
+/* ✅ Mejorar la tabla */
+.table-container {
+  background: white;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.table-container th {
+  background-color: #4f46e5; /* Azul oscuro */
+  color: white;
+}
+
+.table-container td {
+  color: #374151; /* Gris oscuro */
+}
