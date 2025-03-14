@@ -65,10 +65,10 @@ pipeline {
 
     post {
         success {
-            echo '🚀 ¡Despliegue exitoso en Kubernetes!'
+            echo '¡Despliegue exitoso en Kubernetes!'
         }
         failure {
-            echo '❌ Fallo en la construcción o despliegue'
+            echo 'Fallo en la construcción o despliegue'
         }
     }
 }
